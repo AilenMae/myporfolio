@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="nav" id="nav-menu">
+        <i data-feather="x" class="close" id="close-menu"></i>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#content" class="nav_link">Home</a></li>
+          <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+          <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+          <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <h1 class="header_logo">Ailen</h1>
+      </div>
+      <i data-feather="menu" class="toggle" id="toggle-menu"></i>
+    </header>
+
+    <section class="content" id="content">
+      <div class="wrapper">
+        <div class="content-img">
+          <img src="assets/mee.jpg" />
+        </div>
+        <div class="hero">
+          <h3>Hi,</h3>
+          <p>I'm Ailen Mae Marabulas</p>
+          <h3>Future Web Web Designer</h3>
+          <button>
+            <div class="svg-wrapper-1"></div>
+            <span>Lets Talk !</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me section-->
+    <section class="About-Contanier" id="about">
+      <div class="about-wrapper">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <h3>I'm Ailen Mae</h3>
+          <p>
+            I am friendly,smiley and sometimes i am talkative,i love playing
+            outdoor games like volleyball and badminton and i have a short
+            tempered and also i like to watch c-drama and reading wattpad.To my
+            self,I am grateful,happy and proud.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="assets/mee.jpg" />
+        </div>
+      </div>
+    </section>
+    <!--End about me-->
+
+    <!-- Projects-->
+    <section class="projects" id="projects">
+      <h2 class="section-heading">My Achievements</h2>
+
+      <div class="project">
+          <img src="assets/a1.jpg" alt="Project 1 Image">
+
+          <p>Teamwork makes the dream work.</p>
+         
+      </div>
+
+      <div class="project">
+          <img src="assets/a2.jpg" alt="Project 2 Image">
+        
+          <p>The beauty of the future is found when you believe in yourself.</p>
+         
+      </div>
+  </section>
+
+          <!-- contact-->
+  <section class="contact-form" id="contact">
+    <h2>Contact</h2>
+
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="button">Submit</button>
+    </form>
+</section>
+
+<section class="foot">
+
+  <footer>
+    <p>Let's connect! Reach out to me on social media:</p>
+    <ul>
+        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram-alt' ></i></a></li>
+        <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+    </ul>
+    <div class="footer-info">
+      <p>&copy; 2023 Ailen Mae Marabulas</p>
+      <p>Email:  Ailenmaemarabulas@bisu.edu.ph</p>
+  </div>
+  </footer>
+  
+</section>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
